@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#principal {
+  background-color: #ffd900;
+  width: 1728px;
+  padding-top: 27px;
+  padding-bottom: 18px;
+  padding-left: 50px;
+  fill: #ffd900;
+  stroke-width: 1px;
+  stroke: #000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.container {
+  display: flex;
+  margin: 0px;
+  text-align: center;
+  background-color: #514988;
+  width: 1728px;
+  height: 694px;
+  flex-shrink: 0;
+}
+
+#titulo {
+  color: #f3c61f;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#subtitulo {
+  color: #fff;
+  font-family: Verdana;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -30px;
+}
+
+#paragrafo {
+  color: #fff;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 64px;
+  padding-bottom: 92px;
+  padding-right: 64px;
+  padding-top: 20px;
+}
+
+#bloco1 {
+  margin: 0px;
+  text-align: center;
+  background-color: #514988;
+  width: 800px;
+  height: 694px;
+  flex-shrink: 0;
+}
+
+#frase {
+  color: #e33881;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 70px;
+}
+
+#bloco2 {
+  background-color: white;
+  margin-top: -20px;
+}
+
+.timer {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: -30px;
+  margin-bottom: -120px;
+  color: #514988;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#texto {
+  color: #f3c61f;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container2 {
+  display: flex;
+  margin: 0px;
+  text-align: center;
+  width: 1728;
+  height: 204px;
+  flex-shrink: 0;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 170px;
+  margin-top: 30px;
+  width: 506px;
+  height: 148px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #514988;
+  color: #fff;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
