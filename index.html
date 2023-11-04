@@ -38,23 +38,28 @@
         </div>
       </div>
       <h1 id="frase">PARA A MAIOR CCXP DE TODOS OS TEMPOS</h1>
-      <video width="980px" height="450px" controls loop>
+      <video width="980px" height="518px" controls loop>
         <source src="Arlequina.mp4" type="video/mp4"></video>
     </div>
   </section>
   <footer>
     <h1 id="texto">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h1>
     <div class="container2">
-      <img src="quinta.svg" id="quinta">
-      <img src="sexta.svg" id="sexta">
-      <img src="esgotado.svg" id="sabado">
-      <img src="domingo.svg" id="domingo">
+      <img class="cards-ingressos" src="quinta.svg" onclick="selectCard('#quinta')" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta">
+      <img class="cards-ingressos" src="sexta.svg" onclick="selectCard('#sexta')" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta">
+      <img class="cards-ingressos" src="esgotado.svg" onclick="selectCard('#sabado')" onmouseover="highlightCard('#sabado')"  onmouseout="highlightCard('#sabado')" id="sabado">
+      <img class="cards-ingressos" src="domingo.svg"onclick="selectCard('#domingo')"  onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo">
 
-      <button>GARANTA O SEU!!</button>
+      <button onclick="showSelectedCards()">GARANTA O SEU!!</button>
     </div>
   </footer>
+  <div id="form">
+    <form action="https://www.google.com">
+      <input type="email" placeholder="Seu email" required />
+      <input type="submit" />
+    </form>
+  </div>
   <script src="script.js"></script>
   <script src="main.js"></script>
 </body>
-
 </html>
