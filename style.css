@@ -133,12 +133,7 @@ input {
 
 #form {
   background-color: #ffd900;
-  fill: #ffd900;
-  stroke-width: 1px;
-  stroke: #000;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
-    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  width: 1728px;
+  width: 1776px;
 }
 
 button {
