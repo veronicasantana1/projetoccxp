@@ -19,9 +19,6 @@ body {
   display: flex;
   margin: 0px;
   text-align: center;
-  background-color: #514988;
-  width: 1728px;
-  height: 694px;
   flex-shrink: 0;
 }
 
@@ -115,8 +112,6 @@ body {
   display: flex;
   margin-bottom: 30px;
   text-align: center;
-  width: 1728;
-  height: 204px;
   flex-shrink: 0;
 }
 input {
@@ -124,7 +119,6 @@ input {
   background-color: #514988;
   border-radius: 10px;
   color: #ffffff;
-  border: 0pt;
   margin: 30px;
   width: 300px;
   height: 70px;
